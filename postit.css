@@ -23,7 +23,6 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     margin-top: 4em;
-    transform: translate(800px 1000px);
 }
 
 #postit article {
@@ -36,7 +35,7 @@ h2 {
 }
 
 #postit-1:hover {
-    transform: scale(1.05) rotate(-365deg);
+    transform: scale(1.10) rotate(-365deg);
     transition: 3s ease-in;
 }
 
@@ -54,7 +53,7 @@ h2 {
 }
 
 #postit-2:hover {
-    transform: scale(1.05) rotate(8deg);
+    transform: scale(1.08) rotate(8deg);
     transition: 1s ease-in;
 }
 
@@ -68,10 +67,11 @@ h2 {
     background: linear-gradient(45deg, #43e3d4, #b3e5e0);
     border: 1px solid rgb(69, 66, 66);
     flex-basis: 18%;
+    transform: rotate(3deg);
 }
 
 #postit-3:hover {
-    transform: scale(1.05) rotate(-8deg);
+    transform: scale(1.08) rotate(-10deg);
     transition: 1s ease-in;
 }
 
@@ -85,10 +85,11 @@ h2 {
     background: linear-gradient(45deg, #ca3ee2, #e1a5eb);
     border: 1px solid rgb(69, 66, 66);
     flex-basis: 18%;
+    transform: rotate(-3deg);
 }
 
 #postit-4:hover {
-    transform: scale(1.05) rotate(8deg);
+    transform: scale(1.08) rotate(8deg);
     transition: 1s ease-in;
 }
 
@@ -102,6 +103,7 @@ h2 {
     background: linear-gradient(45deg, #d6c2c2, #56eadc);
     border: 1px solid rgb(69, 66, 66);
     flex-basis: 18%;
+    transform: rotate(3deg);
 }
 
 #postit-5:hover {
@@ -119,6 +121,7 @@ h2 {
     background: linear-gradient(45deg, #ca5a36, #e5cbcb);
     border: 1px solid rgb(69, 66, 66);
     flex-basis: 18%;
+    transform: rotate(-4deg);
 }
 
 #postit-6:hover {
@@ -136,6 +139,7 @@ h2 {
     background: linear-gradient(45deg, #ca3ee2, #e1a5eb);
     border: 1px solid rgb(69, 66, 66);
     flex-basis: 18%;
+    transform: rotate(-7deg);
 }
 
 #postit-7:hover {
@@ -153,6 +157,7 @@ h2 {
     background: linear-gradient(45deg, #3fdd45, #dbcccc);
     border: 1px solid rgb(69, 66, 66);
     flex-basis: 18%;
+    transform: rotate(-6deg);
 }
 
 #postit-8:hover {
@@ -170,4 +175,5 @@ h2 {
     background: linear-gradient(45deg, #6bbe0b, #e8dbdb);
     border: 1px solid rgb(69, 66, 66);
     flex-basis: 18%;
+    transform: rotate(3deg);
 }
